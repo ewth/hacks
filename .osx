@@ -14,5 +14,5 @@ cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ 
 #defaults write com.apple.terminal StringEncodings -array 4
 
 # Use a modified version of the Pro theme by default in Terminal.app
-#open "${HOME}/init/Mathias.terminal"
-#sleep 1 # Wait a bit to make sure the theme is loaded
+open "${HOME}/init/Erfan.terminal"
+sleep 1 # Wait a bit to make sure the theme is loaded
