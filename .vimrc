@@ -19,4 +19,4 @@ set expandtab             " use spaces instead of tabs
 set smarttab              " use tabs at the start of a line, spaces elsewhere
 set nowrap                " don't wrap text
 set scrolloff=3
-set sidescrollof=3
+set sidescrolloff=3
