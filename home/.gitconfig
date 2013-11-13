@@ -48,3 +48,6 @@
 	log = true
 [push]
 	default = matching
+[user]
+	name = Erfan
+	email = erfanimani@gmail.com
