@@ -19,6 +19,7 @@ Also see https://github.com/technicalpickles/homesick
 ### Install Homebrew formulae
 
 ```
+cd ~/.homesick/repos/dotfiles/
 ./.brew
 ```
 
