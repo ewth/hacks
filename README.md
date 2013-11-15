@@ -1,4 +1,4 @@
-# Erfans dotfiles
+# My dotfiles
 
 ## Installation
 
