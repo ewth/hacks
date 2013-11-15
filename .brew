@@ -22,10 +22,10 @@ brew install wget --enable-iri
 brew tap homebrew/dupes
 brew install homebrew/dupes/grep
 brew tap josegonzalez/homebrew-php
-# brew install php53
-# brew install php54
-# brew install php55
-# brew install mysql
+brew install php54
+brew install php54-mcrypt
+brew install php54-xdebug
+brew install mysql
 
 #brew install exiv2
 brew install git
