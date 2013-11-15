@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Installed packages
+# Package control
+# Docblocr
+# Sass
+# Theme Soda
+# ColorPicker
+# JumpTo
+# Xdebug Client
+# Dotfiles Syntax Highlighting
+
+########## Variables
+#files="Preferences.sublime-settings Xdebug.sublime-settings Default (OSX).sublime-keymap}"
+# sourcedir="./sublime"
+# targetdir='~/Library/Application\ Support/Sublime\ Text*/Packages/User'
+##########
+
+if [[ $1 = "--force" ]]; then 
+    rm ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings
+    rm ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Xdebug.sublime-settings
+    rm ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Default\ \(OSX\).sublime-keymap
+fi
+
+ln -s ~/.homesick/repos/dotfiles/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User
+
+ln -s ~/.homesick/repos/dotfiles/sublime/Xdebug.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User
+
+ln -s ~/.homesick/repos/dotfiles/sublime/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text*/Packages/User

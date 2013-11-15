@@ -3,9 +3,6 @@
 defaults write com.apple.dashboard mcx-disabled -boolean YES
 killall Dock
 
-# Install Sublime Text settings
-cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
-
 ###############################################################################
 # Terminal & iTerm 2                                                          #
 ###############################################################################
