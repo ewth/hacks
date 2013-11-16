@@ -42,3 +42,6 @@ cd ~/.homesick/repos/dotfiles/
 # or the following if you want to override the current settings
 ./.sublime --force
 ```
+
+### Thanks
+Mostly copied from https://github.com/mathiasbynens/dotfiles and inspired by http://www.youtube.com/watch?v=vDbbz-BdyYc
