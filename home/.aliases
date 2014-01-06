@@ -1,3 +1,6 @@
+# Dev stuffz
+alias magerun="php -f ~/bin/n98-magerun.phar"
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
