@@ -228,5 +228,9 @@
 	<integer>2</integer>
 	<key>type</key>
 	<string>Window Settings</string>
+    <key>columnCount</key>
+    <integer>160</integer>
+    <key>rowCount</key>
+    <integer>40</integer>
 </dict>
 </plist>
