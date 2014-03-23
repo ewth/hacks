@@ -3,6 +3,7 @@
 defaults write com.apple.dashboard mcx-disabled -boolean YES
 killall Dock
 defaults write com.apple.screencapture type jpg
+defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool FALSE
 
 ###############################################################################
 # Terminal & iTerm 2                                                          #
