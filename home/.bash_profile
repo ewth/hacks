@@ -48,6 +48,7 @@ fi
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
 # Automatically added by Platform.sh CLI installer
 export PATH="/Users/erfan/.platformsh/bin:$PATH"
