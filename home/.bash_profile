@@ -47,3 +47,8 @@ if [ -f ~/.git-completion.bash ]; then
 fi
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+
+# Automatically added by Platform.sh CLI installer
+export PATH="/Users/erfan/.platformsh/bin:$PATH"
+. '/Users/erfan/.platformsh/shell-config.rc' 2>/dev/null
