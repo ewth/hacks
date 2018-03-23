@@ -50,6 +50,6 @@ fi
 
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
-# Automatically added by Platform.sh CLI installer
-export PATH="/Users/erfan/.platformsh/bin:$PATH"
-. '/Users/erfan/.platformsh/shell-config.rc' 2>/dev/null
+# BEGIN SNIPPET: Automatically added by the Platform.sh CLI
+export PATH='/Users/ewan/.platformsh/bin':"$PATH"
+. '/Users/ewan/.platformsh/shell-config.rc' # END SNIPPET

@@ -1,9 +1,0 @@
-{
-    "ide_key": "sublime.xdebug",
-    "port": 9000,
-    "url": "http://mage.dev",
-    "close_on_stop": true,
-    "max_depth": 3,
-    "max_children": 32,
-    "debug": true
-}

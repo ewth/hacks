@@ -1,5 +1,13 @@
 # Dev stuffz
 alias magerun="php -f ~/bin/n98-magerun.phar"
+alias bm="bin/magerun2"
+alias std="vendor/bin/phpcs -d memory_limit=128M app/code/Speqs --extensions=php,phtml --standard=EcgM2,psr1,psr2 --report-width=150 --warning-severity=0 --ignore=app/code/Speqs/Commercebug/*"
+
+# Git stuffz
+alias gp="git push origin ${parse_git_branch}"
+alias gs="git status"
+alias gc="git commit -m"
+alias ga="git add"
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
@@ -14,10 +22,13 @@ alias d="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
+alias w="cd ~/www"
+alias sp="cd ~/www/speqs"
 alias g="git"
 alias h="history"
 alias j="jobs"
 alias sublime="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+alias phpstorm="/Applications/PhpStorm.app/Contents/MacOS/phpstorm"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -149,3 +160,4 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
+
