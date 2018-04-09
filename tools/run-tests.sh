@@ -2,15 +2,13 @@
 
 pull_the_plug() {
     if [ "${?}" != "0" ]; then
-        cd ${pwd}
+        cd ${PREVDIR}
         echo ""
         echo -e "\033[31;1m*** TEST FAILED **\033[0m"
         echo ""
         exit 1
     fi
 }
-
-
 
 PREVDIR=`pwd`
 echo ""
@@ -31,3 +29,4 @@ pull_the_plug
 echo -e "\033[32m[3/3] Passed!\033[0m"
 echo ""
 echo -e "\033[92;1mAll tests passed!\033[0m"
+cd ${PREVDIR}
