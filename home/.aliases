@@ -1,13 +1,14 @@
 # Dev stuffz
 alias magerun="php -f ~/bin/n98-magerun.phar"
 alias bm="bin/magerun2"
-alias std="vendor/bin/phpcs -d memory_limit=128M app/code/Speqs --extensions=php,phtml --standard=EcgM2,psr1,psr2 --report-width=150 --warning-severity=0 --ignore=app/code/Speqs/Commercebug/*"
+alias rungulp="~/www/workstuff/tools/run-gulp.sh"
+alias runtests="~/www/workstuff/tools/run-tests.sh"
 
 # Git stuffz
-alias gp="git push origin ${parse_git_branch}"
 alias gs="git status"
 alias gc="git commit -m"
 alias ga="git add"
+alias gf="git fetch"
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."

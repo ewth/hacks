@@ -1,3 +1,6 @@
+# Add `/usr/local/bin` to the `$PATH`
+export PATH="/usr/local/sbin:$PATH"
+
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH"
 
@@ -52,4 +55,4 @@ fi
 
 # BEGIN SNIPPET: Automatically added by the Platform.sh CLI
 export PATH='/Users/ewan/.platformsh/bin':"$PATH"
-. '/Users/ewan/.platformsh/shell-config.rc' # END SNIPPET
+[ -f '/Users/ewan/.platformsh/shell-config.rc' ] && . '/Users/ewan/.platformsh/shell-config.rc' # END SNIPPET
