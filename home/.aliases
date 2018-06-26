@@ -2,7 +2,11 @@
 alias magerun="php -f ~/bin/n98-magerun.phar"
 alias bm="bin/magerun2"
 alias rungulp="~/www/workstuff/tools/run-gulp.sh"
-alias runtests="~/www/workstuff/tools/run-tests.sh"
+alias runtests="~/www/workstuff/tools/pre-push-tests.sh"
+alias gitdiff="git difftool -y -t Kaleidoscope"
+alias killmage="sp && rm -rf var/generation/* var/di/* var/cache/* pub/static/* && bm cache:clean && rungulp"
+alias phpinfo="sp && echo '<?php phpinfo();' > pub/phpinfo.php && echo 'Done'"
+alias nah="git reset --hard; git clean -df"
 
 # Git stuffz
 alias gs="git status"

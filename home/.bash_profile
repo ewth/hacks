@@ -1,5 +1,5 @@
 # Add `/usr/local/bin` to the `$PATH`
-export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/opt/php@7.0/bin:/usr/local/opt/php@7.0/sbin:/usr/local/bin:usr/local/sbin:$PATH"
 
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH"
