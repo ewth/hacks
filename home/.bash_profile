@@ -1,11 +1,21 @@
 # Add `/usr/local/bin` to the `$PATH`
-export PATH="/usr/local/opt/php@7.0/bin:/usr/local/opt/php@7.0/sbin:/usr/local/bin:usr/local/sbin:$PATH"
+# export PATH="/usr/local/opt/php@7.0/bin:/usr/local/opt/php@7.0/sbin:/usr/local/bin:usr/local/sbin:$PATH"
+export PATH="/usr/local/opt/php@7.1/bin:/usr/local/opt/php@7.1/sbin:/usr/local/bin:usr/local/sbin:$PATH"
+
+# Add xdebug support to cli
+# export XDEBUG_CONFIG="idekey=PHPSTORM"
+
+# Add `~/dev/flutter` to the `$PATH`
+export PATH="$PATH:~/dev/flutter/bin"
 
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH"
 
 # Add `~/.gems/bin` to the `$PATH`
 export PATH="$HOME/.gems/bin:$PATH"
+
+# Add 
+export PATH="$PATH:$HOME/.composer/vendor/bin"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -56,3 +66,8 @@ fi
 # BEGIN SNIPPET: Automatically added by the Platform.sh CLI
 export PATH='/Users/ewan/.platformsh/bin':"$PATH"
 [ -f '/Users/ewan/.platformsh/shell-config.rc' ] && . '/Users/ewan/.platformsh/shell-config.rc' # END SNIPPET
+
+# Setting PATH for Python 3.7
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
+export PATH
