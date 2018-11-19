@@ -1,6 +1,6 @@
 # Add `/usr/local/bin` to the `$PATH`
 # export PATH="/usr/local/opt/php@7.0/bin:/usr/local/opt/php@7.0/sbin:/usr/local/bin:usr/local/sbin:$PATH"
-export PATH="/usr/local/opt/php@7.1/bin:/usr/local/opt/php@7.1/sbin:/usr/local/bin:usr/local/sbin:$PATH"
+# export PATH="/usr/local/opt/php@7.1/bin:/usr/local/opt/php@7.1/sbin:/usr/local/bin:usr/local/sbin:$PATH"
 
 # Add xdebug support to cli
 # export XDEBUG_CONFIG="idekey=PHPSTORM"
@@ -14,7 +14,10 @@ export PATH="$HOME/bin:$PATH"
 # Add `~/.gems/bin` to the `$PATH`
 export PATH="$HOME/.gems/bin:$PATH"
 
-# Add 
+# Add /usr/local/sbin to the path
+export PATH="/usr/local/sbin:$PATH"
+
+# Add
 export PATH="$PATH:$HOME/.composer/vendor/bin"
 
 # Load the shell dotfiles, and then some:
@@ -71,3 +74,15 @@ export PATH='/Users/ewan/.platformsh/bin':"$PATH"
 # The original version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
 export PATH
+
+# Add environment variable COCOS_CONSOLE_ROOT for cocos2d-x
+export COCOS_CONSOLE_ROOT="/Users/ewan/dev/cocos2d-x-3.17/tools/cocos2d-console/bin"
+export PATH=$COCOS_CONSOLE_ROOT:$PATH
+
+# Add environment variable COCOS_X_ROOT for cocos2d-x
+export COCOS_X_ROOT="/Users/ewan/dev"
+export PATH=$COCOS_X_ROOT:$PATH
+
+# Add environment variable COCOS_TEMPLATES_ROOT for cocos2d-x
+export COCOS_TEMPLATES_ROOT="/Users/ewan/dev/cocos2d-x-3.17/templates"
+export PATH=$COCOS_TEMPLATES_ROOT:$PATH
